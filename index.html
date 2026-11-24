@@ -67,8 +67,6 @@
       align-items: center;
       justify-content: center;
       padding: 8%;
-      min-height: 0;
-      container-type: inline-size; /* 카드 크기를 상 크기에 맞춤 */
       background:
         repeating-radial-gradient(circle at 50% 50%,
           rgba(255, 255, 255, 0.04) 0 6px,
@@ -87,18 +85,18 @@
       flex-wrap: wrap;
       align-items: center;
       justify-content: center;
-      gap: 3cqw;
+      gap: 14px;
     }
 
     .dishes li {
-      width: 21cqw;
-      padding: 2.6cqw 1cqw 2cqw;
+      width: 104px;
+      padding: 16px 8px 12px;
       text-align: center;
       background: var(--card);
       border: 2px solid var(--card-line);
       border-radius: 16px;
       box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
-      font-size: clamp(0.75rem, 3.6cqw, 1.1rem);
+      font-size: 1.05rem;
       font-weight: 700;
       transition: transform 0.2s ease;
     }
@@ -107,7 +105,7 @@
 
     .dishes li span {
       display: block;
-      font-size: 9cqw;
+      font-size: 2.6rem;
       line-height: 1.2;
       margin-bottom: 6px;
     }
@@ -139,8 +137,6 @@
       <li><span>🍲</span>국</li>
       <li><span>🥬</span>김치</li>
       <li><span>🍖</span>돈가스</li>
-      <li><span>🥩</span>양갈비</li>
-      <li><span>🥗</span>상추</li>
     </ul>
   </main>
 
